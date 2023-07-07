@@ -1,0 +1,71 @@
+.to-do__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	> li {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		border-bottom: 1px solid black;
+		padding-bottom: 4px;
+		> button {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 16px;
+			cursor: pointer;
+			&:disabled {
+				cursor: default;
+			}
+		}
+		input {
+			&:checked + span {
+				text-decoration: line-through;
+			}
+		}
+	}
+
+	h3 {
+		margin: 0;
+	}
+}
+.to-do__delete {
+	max-width: fit-content;
+	border-radius: 8px;
+	border: 3px solid red;
+	color: red;
+	background-color: rgb(255, 99, 99);
+	padding: 4px 16px;
+	> p {
+		margin: 0;
+		font-weight: bold;
+	}
+}
+.to-do__add {
+	max-width: fit-content;
+	border-radius: 8px;
+	border: 3px solid green;
+	color: green;
+	background-color: rgb(95, 219, 95);
+	padding: 4px 16px;
+	> p {
+		margin: 0;
+		font-weight: bold;
+	}
+}
+.to-do__have {
+	max-width: fit-content;
+	border-radius: 8px;
+	border: 3px solid yellow;
+	color: yellow;
+	background-color: rgb(226, 226, 157);
+	padding: 4px 16px;
+	> p {
+		margin: 0;
+		font-weight: bold;
+	}
+}

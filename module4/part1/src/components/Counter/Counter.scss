@@ -1,0 +1,16 @@
+.counter-box {
+	margin: 0 auto;
+	width: fit-content;
+	display: flex;
+	// flex-direction: column;
+	flex-wrap: wrap;
+	> p {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 16px;
+		font-size: 28px;
+	}
+	> button {
+		width: 50%;
+	}
+}
