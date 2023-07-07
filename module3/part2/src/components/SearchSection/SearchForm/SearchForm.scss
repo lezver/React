@@ -1,0 +1,55 @@
+.search-section__form {
+	padding: 24px;
+	border: 2px dashed rgb(130, 130, 130);
+	border-radius: 8px;
+	display: flex;
+	align-items: end;
+	gap: 16px;
+	> label {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		font-weight: bold;
+		color: white;
+		> input {
+			background-color: transparent;
+			outline: none;
+			border: none;
+			border-radius: 4px;
+			border-bottom: 1px solid white;
+			color: white;
+			font-size: 16px;
+			width: 150px;
+		}
+	}
+	> button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 4px;
+		border: 1px solid white;
+		background-color: transparent;
+		cursor: pointer;
+		transition: all 250ms;
+		> svg {
+			color: white;
+			transition: all 250ms;
+		}
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.498);
+			> svg {
+				transform: scale(1.05);
+			}
+		}
+		&:disabled {
+			cursor: default;
+			border-color: gray;
+			background-color: transparent;
+
+			> svg {
+				color: grey;
+				transform: scale(1);
+			}
+		}
+	}
+}

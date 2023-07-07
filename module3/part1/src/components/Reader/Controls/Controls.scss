@@ -1,0 +1,29 @@
+.reader__controls {
+	max-width: fit-content;
+	display: flex;
+	gap: 24px;
+	button {
+		font-size: 16px;
+		padding: 8px 16px;
+		text-transform: uppercase;
+		border-radius: 8px;
+		background-color: aliceblue;
+		font-weight: bold;
+		cursor: pointer;
+		&:hover {
+			background-color: rgb(217, 237, 255);
+		}
+		&:first-child {
+			color: orange;
+		}
+		&:last-child {
+			color: olivedrab;
+		}
+		&:disabled {
+			color: black;
+			background-color: grey;
+			border: none;
+			cursor: auto;
+		}
+	}
+}

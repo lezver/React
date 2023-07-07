@@ -1,0 +1,11 @@
+.to-do__filter {
+	> input {
+		font-size: 16px;
+		background-color: transparent;
+		margin-left: 8px;
+		width: 100px;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid black;
+	}
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"id": "mNmHJqdWk_OhQpT4dZ71C",
+		"text": "Learn HTML",
+		"isChecked": true
+	},
+	{
+		"id": "5QCceWzfSutI11B_v2sgj",
+		"text": "Learn CSS",
+		"isChecked": false
+	},
+	{
+		"id": "wkgvk9ze0eb7UqXSt9aqL",
+		"text": "Learn JavaScript",
+		"isChecked": false
+	},
+	{
+		"id": "gpMQ3r_j9ZAteqNRyilEm",
+		"text": "Learn React.js",
+		"isChecked": false
+	}
+]

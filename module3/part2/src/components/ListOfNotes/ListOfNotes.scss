@@ -1,0 +1,18 @@
+.list-of-notes {
+	max-width: 85%;
+	background-color: purple;
+	padding: 24px;
+	margin: 0 auto 50px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	box-sizing: border-box;
+}
+.list-of-notes__loading {
+	margin: 0;
+	font-size: 32px;
+	color: white;
+	text-transform: uppercase;
+}

@@ -1,0 +1,58 @@
+.list-of-notes__note-from {
+	background-color: rgb(255, 80, 80);
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	gap: 24px;
+	h2 {
+		margin: 0;
+	}
+	> label {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		font-weight: bold;
+		> input {
+			background-color: transparent;
+			outline: none;
+			border: none;
+			border-bottom: 1px solid black;
+			font-size: 16px;
+		}
+	}
+	.note-from__name {
+		> input {
+			width: 75px;
+		}
+	}
+	.note-from__text {
+		> input {
+			width: 150px;
+		}
+	}
+	> button {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: fit-content;
+		border: none;
+		background-color: transparent;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: all 250ms;
+		> svg {
+			fill: rgb(103, 231, 61);
+		}
+		&:hover {
+			transform: scale(1.1);
+		}
+		&:disabled {
+			cursor: default;
+			> svg {
+				fill: rgb(79, 79, 79);
+			}
+		}
+	}
+}

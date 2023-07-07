@@ -1,0 +1,14 @@
+.search-section__list {
+	max-width: 100%;
+	color: white;
+	> li {
+		background-color: indianred;
+		padding: 8px;
+		border-radius: 4px;
+	}
+}
+
+.search-section__loading {
+	font-size: 36px;
+	color: red;
+}

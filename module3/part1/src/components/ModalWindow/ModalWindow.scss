@@ -1,0 +1,46 @@
+.modal__backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(178, 177, 172, 0.499);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal__window {
+	z-index: 1;
+	min-width: 300px;
+	background-color: cadetblue;
+	border-radius: 8px;
+	padding: 24px;
+}
+
+.modal__btn-open {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border: none;
+	background-color: transparent;
+	> svg {
+		cursor: pointer;
+	}
+}
+.modal__close {
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border: none;
+	background-color: transparent;
+	> svg {
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,15 @@
+.video-player {
+	background-color: blanchedalmond;
+	max-width: 85%;
+	padding: 24px;
+	margin: 0 auto 50px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	> h2,
+	h3 {
+		margin: 0;
+	}
+}
