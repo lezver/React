@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+	font-size: 48px;
+	color: chartreuse;
+}
+nav {
+	background-color: crimson;
+	> ul {
+		display: flex;
+		gap: 24px;
+		list-style: none;
+		> li {
+			padding: 8px;
+			> a {
+				font-weight: bold;
+			}
+		}
+	}
+}

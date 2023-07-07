@@ -1,0 +1,23 @@
+.dog-details {
+	max-width: 90%;
+	margin: 0 auto 50px;
+	padding: 24px;
+	background-color: chocolate;
+	border-radius: 8px;
+	> img {
+		display: block;
+		max-width: 100%;
+		border-radius: 8px;
+	}
+}
+.back {
+	padding: 4px 8px;
+	background-color: aquamarine;
+	border: 2px solid blue;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: bold;
+	&:active {
+		color: blue;
+	}
+}

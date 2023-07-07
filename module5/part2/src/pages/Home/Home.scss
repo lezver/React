@@ -1,0 +1,15 @@
+.home {
+	background-color: rgb(189, 209, 169);
+	padding: 24px;
+	border-radius: 8px;
+
+	> h2 {
+		font-size: 32px;
+	}
+
+	> svg {
+		font-size: 100px;
+		display: block;
+		margin: 0 auto;
+	}
+}

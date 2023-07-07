@@ -1,0 +1,17 @@
+.not-found {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+
+	> a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: rgba(128, 21, 0, 0.585);
+		padding: 8px;
+		background-color: rgba(128, 21, 0, 0.585);
+		border-radius: 8px;
+		border: 2px solid rgba(128, 21, 0, 0.585);
+	}
+}

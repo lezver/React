@@ -1,0 +1,44 @@
+header {
+	display: flex;
+	align-items: center;
+	padding: 8px 24px;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+
+	> nav {
+		margin-left: auto;
+
+		> ul {
+			list-style: none;
+			display: flex;
+			gap: 16px;
+
+			> li > a {
+				font-weight: bold;
+				color: #000;
+				font-size: 24px;
+				text-decoration: none;
+				padding: 8px 16px;
+				border-radius: 8px;
+
+				&.active {
+					color: white;
+					background-color: orangered;
+				}
+			}
+		}
+	}
+}
+
+.logo {
+	font-size: 40px;
+	transition: color 250ms;
+	color: rgb(0, 174, 174);
+	&:hover {
+		color: rgb(0, 89, 89);
+	}
+}
+
+main {
+	margin-bottom: 50px;
+}

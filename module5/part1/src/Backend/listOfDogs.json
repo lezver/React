@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Maltese",
+		"text": "A description of the ideal dog of each recognized breed, to serve as an ideal against which dogs are judged at shows, originally laid down by a parent breed club and accepted officially by national or international bodies.",
+		"url": "https://cdn.britannica.com/72/234472-050-735B6214/maltese-dog.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Yorkshire terrier",
+		"text": "The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose crowning glory is a floor-length, silky coat of steel blue and a rich golden tan. Don't let the Yorkie's daintiness fool you. Tenacious, feisty, brave, and sometimes bossy, the Yorkie exhibits all the traits of a true terrier.",
+		"url": "https://cdn.britannica.com/49/233849-050-2ECC4F03/Yorkshire-terrier-dog-running.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Husky",
+		"text": "A description of the ideal dog of each recognized breed, to serve as an ideal against which dogs are judged at shows, originally laid down by a parent breed club and accepted officially by national or international bodies.",
+		"url": "https://cdn.britannica.com/84/232784-050-1769B477/Siberian-Husky-dog.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Pitbull",
+		"text": "While most experts agree that today's Pit Bull is a short-coated dog characterized by a wide skull, powerful jaws and a muscular, stocky body, there is great variation in this group's appearance. Typically 35 to 65 pounds, some weigh as little as 25 pounds, others tip the scales at 80 pounds or more.",
+		"url": "https://animalcorner.org/wp-content/uploads/2020/05/Pocket-Pitbull-1-1024x865.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Malamute",
+		"text": "An immensely strong, heavy-duty worker of spitz type, the Alaskan Malamute is an affectionate, loyal, and playful but dignified dog recognizable by his well-furred plumed tail carried over the back, erect ears, and substantial bone. The Alaskan Malamute stands 23 to 25 inches at the shoulder and weighs 75 to 85 pounds.",
+		"url": "https://cdn.britannica.com/02/236302-050-E1F61BB1/Alaskan-Malamute-sled-dog.jpg"
+	}
+]
