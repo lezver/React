@@ -1,0 +1,75 @@
+.header {
+	background-color: rgb(92, 183, 92);
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 24px;
+	> div {
+		display: flex;
+		gap: 16px;
+		> button {
+			background-color: transparent;
+			border: none;
+			outline: none;
+			margin: 0;
+			padding: 0;
+			> svg {
+				display: block;
+				cursor: pointer;
+			}
+		}
+		> button:first-child {
+			> svg {
+				color: rgba(165, 42, 42, 0.751);
+			}
+			> svg:hover {
+				color: rgba(165, 42, 42, 0.501);
+			}
+			> svg:active {
+				color: rgb(165, 42, 42);
+			}
+		}
+		> button:last-child {
+			> svg {
+				color: rgba(137, 43, 226, 0.751);
+			}
+			> svg:hover {
+				color: rgba(137, 43, 226, 0.501);
+			}
+			> svg:active {
+				color: rgb(137, 43, 226);
+			}
+		}
+	}
+}
+.header__logo {
+	display: block;
+	width: fit-content;
+
+	> svg {
+		display: block;
+		color: green;
+		transition: all 250ms;
+	}
+	> svg:hover {
+		color: darkgreen;
+	}
+	> svg:active {
+		color: rgb(0, 70, 0);
+	}
+}
+.modal-window {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-backdrop-filter: blur(5px);
+	background-color: rgba(128, 128, 128, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}

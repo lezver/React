@@ -1,0 +1,19 @@
+.close-btn {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	transition: all 250ms;
+	> svg {
+		cursor: pointer;
+		display: block;
+	}
+	> svg:hover {
+		color: rgba(128, 255, 0, 0.513);
+	}
+	> svg:active {
+		color: rgba(128, 255, 0, 0.856);
+	}
+}

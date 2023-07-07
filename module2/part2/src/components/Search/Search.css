@@ -1,0 +1,38 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	> h1 {
+		font-size: 45px;
+	}
+
+	> div {
+		margin-bottom: 24px;
+		display: flex;
+		gap: 16px;
+		> label > input {
+			font-size: 16px;
+		}
+		> button {
+			font-size: 16px;
+		}
+	}
+	> ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		max-width: fit-content;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		> li {
+			background-color: cadetblue;
+			border-radius: 8px;
+			width: 250px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
