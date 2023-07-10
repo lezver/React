@@ -1,3 +1,4 @@
 import { App } from "./App";
+import { Todo } from "./Todo";
 
-export { App };
+export { App, Todo };
