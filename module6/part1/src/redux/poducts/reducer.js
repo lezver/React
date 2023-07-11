@@ -16,7 +16,7 @@ export const productsReducer = (state = defaultState, action) => {
 			return [...state, action.payload];
 
 		case DELETE_PRODUCT:
-			return [state.filter(({ name }) => name !== action.payload.name)];
+			return state.filter(({ name }) => name !== action.payload.name);
 		case UPDATE_PRODUCT:
 			return state.reduce((acc, product) => {
 				if (product.name === action.payload.name) {

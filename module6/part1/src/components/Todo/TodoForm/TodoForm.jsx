@@ -1,19 +1,16 @@
+import { useDispatch } from "react-redux";
 import "./TodoForm.scss";
 import { nanoid } from "nanoid";
+import { addTodo } from "redux/todo/actions";
 
-export const TodoForm = ({ addNote }) => {
-	const id = nanoid();
+export const TodoForm = () => {
+	const dispatch = useDispatch();
 
 	const handlerForm = (e) => {
 		e.preventDefault();
 		const { value } = e.target.elements.text;
 
-		const newNote = {
-			id: id,
-			text: value,
-		};
-
-		addNote(newNote);
+		dispatch(addTodo({ id: nanoid(), text: value }));
 
 		e.target.reset();
 	};
