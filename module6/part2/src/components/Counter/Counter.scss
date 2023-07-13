@@ -1,0 +1,28 @@
+.counter {
+	background-color: aquamarine;
+	max-width: fit-content;
+	padding: 24px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin: 0 auto;
+
+	> p {
+		margin: 0;
+		font-size: 32px;
+		text-align: center;
+		color: red;
+		font-weight: bold;
+	}
+
+	> div {
+		display: flex;
+		gap: 16px;
+
+		> button {
+			font-size: 20px;
+		}
+	}
+}
