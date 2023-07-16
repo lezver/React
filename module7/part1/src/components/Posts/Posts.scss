@@ -1,0 +1,24 @@
+.posts {
+	max-width: 300px;
+	padding: 24px;
+	background-color: cadetblue;
+	border-radius: 8px;
+	margin: 0 auto;
+
+	> h2 {
+		text-align: center;
+	}
+
+	> ul {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		> li {
+			border: 5px dashed black;
+			padding: 8px;
+		}
+	}
+}
