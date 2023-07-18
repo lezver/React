@@ -1,0 +1,12 @@
+.todo {
+	max-width: 90%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 24px;
+	border-radius: 8px;
+	background-color: beige;
+
+	> h2 {
+		text-align: center;
+	}
+}
