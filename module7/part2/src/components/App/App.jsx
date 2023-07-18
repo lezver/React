@@ -7,7 +7,7 @@ import { Todo } from "components";
 
 export const App = () => (
 	<>
-		<h1>Module7 - Part1</h1>
+		<h1>Module7 - Part2</h1>
 		<Todo />
 		<Products />
 		<Header />
