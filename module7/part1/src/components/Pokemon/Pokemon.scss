@@ -1,0 +1,11 @@
+.pokemon {
+	max-width: 300px;
+	padding: 24px;
+	background-color: rgb(95, 160, 129);
+	border-radius: 8px;
+	margin: 0 auto 50px;
+
+	> h2 {
+		text-align: center;
+	}
+}
